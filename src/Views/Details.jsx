@@ -5,7 +5,7 @@ const Details = () => {
     return (
         <section id="details">
             <Container>
-                <Fade bottom duration={100} distance="30px">
+                <Fade left duration={500} distance="30px">
                     <div className="mb-5 text-center"><h2>Explore the opportunities of this template</h2></div>
                 </Fade>
 
