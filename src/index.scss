@@ -1,0 +1,69 @@
+@import "~bootstrap/scss/bootstrap";
+@import "./Fonts/catamaran/styles.css";
+
+/* Colors */
+$primary-color: #b54f4f;
+$secondary-color: #e4c665;
+
+$black-color: #383535;
+$white-color: #eeeded;
+
+.primary-color { color: $primary-color; }
+.secondary-color { color: $secondary-color; }
+.primary-bg-color { background-color: $primary-color; }
+.secondary-bg-color { background-color: $secondary-color; }
+
+/* Main styles and typography */
+body {
+  margin: 0px;
+  padding: 0px;
+  color: $black-color;
+  background-color: $white-color;
+  font-family: 'Catamaran', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+span,
+p,
+a {
+  font-weight: normal;
+}
+
+a,
+a:link,
+a:hover,
+a:visited,
+a:active {
+  color: $primary-color;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $secondary-color;
+  transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 991px) {
+    .desktop { display: none !important; }
+    .mobile { display: block !important; }    
+}
+
+@media screen and (min-width: 992px) {
+    .desktop { display: block !important; }
+    .mobile { display: none !important; }
+}
+
+/* Forse servono i display per sistemare la grandezza dei font opportunamente */
+h1 { font-size: 4rem; }
+
+@import './Styles/Hero.scss';
