@@ -2,8 +2,8 @@
 @import "./Fonts/catamaran/styles.css";
 
 /* Colors */
-$primary-color: #b54f4f;
-$secondary-color: #e4c665;
+$primary-color: #c55050; // I colori magari un contrasto tra azzurro e grigio scuro / chiaro!!
+$secondary-color: #e18351;
 
 $black-color: #383535;
 $white-color: #eeeded;
@@ -67,3 +67,4 @@ a:hover {
 h1 { font-size: 4rem; }
 
 @import './Styles/Hero.scss';
+@import './Styles/Button.scss';

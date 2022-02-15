@@ -2,8 +2,8 @@
     min-height: 100vh;
 
     .col-content {
-        color: $white-color;
-        background-color: $primary-color;
+        color: $black-color;
+        background-color: $white-color;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -13,6 +13,40 @@
         @media screen and (max-width: 991px) {
             padding: 20px;
         }
+
+        .header {
+            top: 60px;
+            left: 60px;
+            right: calc(50% + 60px);
+            position: absolute;
+            z-index: 2;
+
+            .header-content {
+                justify-content: space-between;
+                display: flex;
+            }
+
+            .navbar-item {
+                margin-right: 30px;
+
+                a {
+                    color: $black-color;
+                    transition: all 0.1s ease-in-out;
+                }
+
+                a:hover {
+                    font-weight: bold;
+                    transition: all 0.1s ease-in-out;
+                }
+            }
+        }
+    }
+
+    img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        padding: 0;
     }
 
     .mobile {
@@ -24,8 +58,76 @@
         justify-content: center;
         align-items: center;
 
+        .header {
+            top: 60px;
+            right: 30px;
+            left: 30px;
+            position: absolute;
+            z-index: 5;
+
+            .header-content {
+                justify-content: space-between;
+                display: flex;
+                z-index: 5;
+            }
+        }
+
         img {
             position: absolute;
+        }
+        
+        .content {
+            display: flex;
+            min-height: 100vh;
+            position: relative;
+            align-items: center;
+            background: #1d1d1db3;
+        }
+
+        .margin-adder { margin: 10px; }
+
+        .sidebar {
+
+            .sidebar-backdrop {
+                position: fixed;
+                top: 0;
+                right: 0;
+                left: 0;
+                bottom: 0;
+                z-index: 3;
+                pointer-events: none;
+                background: rgb(238, 237, 238);
+            }
+
+            .sidebar-content {
+                display: flex;
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                z-index: 4;
+                height: 100vh;
+                overflow: auto;
+                flex-direction: column;
+                justify-content: center;
+                color: $black-color;
+
+                .menu-container {
+                    width: 100%;
+                    padding: 0 30px 0 45px;
+                }
+
+                .menu-title {
+                    padding: 0 0 30px 0;
+                    color: rgba(0, 0, 0, .3);
+                    font-size: 16px;
+                }
+
+                .menu-item {
+                    padding: 4px 0;
+                    font-size: 42px;
+                }
+            }
         }
     }
 }
