@@ -3,7 +3,7 @@
 
 Template for modern and responsive websites, made with React.
 
-![Screenshot sample](https://user-images.githubusercontent.com/52317197/154096285-79e3274e-58f4-4b02-8b46-50a793b33af2.jpeg)
+![Acquisisci schermata Web_15-2-2022_221310_elegalio netlify app](https://user-images.githubusercontent.com/52317197/154150056-3fc7b256-0876-4e37-9b06-623550a5a622.jpeg)
 
 ## How to run in local
 `npm install` To install dependencies
