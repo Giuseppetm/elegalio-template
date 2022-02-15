@@ -16,10 +16,11 @@ const Hero = () => {
                         <Fade bottom duration={500} delay={600} distance="30px">
                             <div className="header">
                                 <div className="header-content">
-                                    <div><a href="https://github.com/Giuseppetm/elegalio"><b>Elegalio</b></a></div>
+                                    <div><a href="https://elegalio.netlify.app/"><b>Elegalio</b></a></div>
                                     <div style={{ display: 'flex' }}>
                                         <div className="navbar-item"><a href="#about">About</a></div>
-                                        <div className="navbar-item" style={{ marginRight: 0 }}><a href="#details">Details</a></div>
+                                        <div className="navbar-item"><a href="#details">Details</a></div>
+                                        <div className="navbar-item" style={{ marginRight: 0 }}><a href="#contact">Contact</a></div>
                                     </div>
                                 </div>
                             </div>
@@ -66,6 +67,7 @@ const Hero = () => {
                                     <div className="menu-title">Menu</div>
                                     <div className="menu-item"><a href="#about" onClick={() => setLateralMenu(false)}>About</a></div>
                                     <div className="menu-item"><a href="#details" onClick={() => setLateralMenu(false)}>Details</a></div>
+                                    <div className="menu-item"><a href="#contact" onClick={() => setLateralMenu(false)}>Contact</a></div>
                                 </div>
                                 <div className="menu-container" style={{ marginTop: 30 }}>
                                     <div className="menu-title">Get in touch</div>

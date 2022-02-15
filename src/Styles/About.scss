@@ -11,3 +11,22 @@
         font-size: 20px;
     }
 }
+
+#about-p2 {
+    padding: 7rem 0px 7rem 0px;
+    text-align: center;
+
+    .about-icon {
+        padding: 20px 18px 20px 18px;
+        margin-right: 6px;
+        border-radius: 30%;
+        background-color: $secondary-color;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        transition: all 0.1s ease-in-out;
+    }
+
+    .about-icon:hover {
+        background-color: $primary-color;
+        color: $white-color;
+    }
+}
