@@ -10,6 +10,8 @@ $white-color: #eeeded;
 
 .primary-color { color: $primary-color; }
 .secondary-color { color: $secondary-color; }
+.white-color { color: $white-color; }
+.black-color { color: $black-color; }
 .primary-bg-color { background-color: $primary-color; }
 .secondary-bg-color { background-color: $secondary-color; }
 
@@ -30,12 +32,13 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: bold;
+  font-weight: bold !important;
 }
 
+h1 { font-size: 4rem; }
+
 span,
-p,
-a {
+p {
   font-weight: normal;
 }
 
@@ -63,8 +66,8 @@ a:hover {
     .mobile { display: none !important; }
 }
 
-/* Forse servono i display per sistemare la grandezza dei font opportunamente */
-h1 { font-size: 4rem; }
-
 @import './Styles/Hero.scss';
+@import './Styles/About.scss';
+@import './Styles/Details.scss';
 @import './Styles/Button.scss';
+@import './Styles/Footer.scss';

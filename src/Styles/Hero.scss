@@ -127,6 +127,10 @@
                     padding: 4px 0;
                     font-size: 42px;
                 }
+
+                a, a:hover {
+                    color: $black-color;
+                }
             }
         }
     }

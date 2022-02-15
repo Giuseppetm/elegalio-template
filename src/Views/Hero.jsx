@@ -14,11 +14,10 @@ const Hero = () => {
                     <Col lg={6} className="col-content">
                         <div className="header">
                             <div className="header-content">
-                                <div><a href="#dennis"><b>Elegalio</b></a></div>
+                                <div><a href="https://github.com/Giuseppetm/elegalio"><b>Elegalio</b></a></div>
                                 <div style={{ display: 'flex' }}>
-                                    <div className="navbar-item"><a href="#dennis">About</a></div>
-                                    <div className="navbar-item"><a href="#dennis">Section two</a></div>
-                                    <div className="navbar-item" style={{ marginRight: 0 }}><a href="#dennis">Section three</a></div>
+                                    <div className="navbar-item"><a href="#about">About</a></div>
+                                    <div className="navbar-item" style={{ marginRight: 0 }}><a href="#details">Details</a></div>
                                 </div>
                             </div>
                         </div>
@@ -55,13 +54,12 @@ const Hero = () => {
                     <div className="sidebar-content">
                         <div className="menu-container">
                             <div className="menu-title">Menu</div>
-                            <div className="menu-item">About</div>
-                            <div className="menu-item">Section two</div>
-                            <div className="menu-item">Section three</div>
+                            <div className="menu-item"><a href="#about" onClick={() => setLateralMenu(false)}>About</a></div>
+                            <div className="menu-item"><a href="#details" onClick={() => setLateralMenu(false)}>Details</a></div>
                         </div>
                         <div className="menu-container" style={{ marginTop: 30 }}>
                             <div className="menu-title">Get in touch</div>
-                            <div>giuseppe.delcampo@outlook.com</div>
+                            <div><a href="mailto:giuseppe.delcampo@outlook.com">giuseppe.delcampo@outlook.com</a></div>
                         </div>
                     </div>
                 </div>
