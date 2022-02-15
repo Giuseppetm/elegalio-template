@@ -19,10 +19,10 @@ const Footer = () => {
 
                     <Col lg={5} xs={12} className="footer-col social-icons">
                         <div>
-                            <span className="circle-icon"><DiReact style={iconStyle} /></span>
-                            <span className="circle-icon"><AiFillFacebook style={iconStyle} /></span>
-                            <span className="circle-icon"><AiFillInstagram style={iconStyle} /></span>
-                            <span className="circle-icon"><AiFillLinkedin style={{ fontSize: 23, marginRight: 0 }} /></span>
+                            <a href="" className="social-link"><span className="circle-icon"><DiReact style={iconStyle} /></span></a>
+                            <a href="" className="social-link"><span className="circle-icon"><AiFillFacebook style={iconStyle} /></span></a>
+                            <a href="" className="social-link"><span className="circle-icon"><AiFillInstagram style={iconStyle} /></span></a>
+                            <a href="" className="social-link"><span className="circle-icon"><AiFillLinkedin style={{ fontSize: 23, marginRight: 0 }} /></span></a>
                         </div>
                     </Col>
                 </Row>
