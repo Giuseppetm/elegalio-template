@@ -78,9 +78,11 @@ const Content = () => {
                 <h2>A simple and elegant website template</h2>
                 <p style={{ maxWidth: 550 }}>You can insert whatever you want in this template, from yours text to images: if you want you can change the context to what you need.</p>
             </div>
-            <span className="button button-hero">
-                Tell me more
-            </span>
+            <a href="#about">
+                <span className="button button-hero">
+                    Tell me more
+                </span>
+            </a>
         </div>
     );
 }

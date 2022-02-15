@@ -13,7 +13,7 @@ const Details = () => {
                         <div>
                             <h2 style={{ fontWeight: 'normal' }}>This is a very nice building.</h2>
                             <p>I would love to tell more about it, but you'll have to press the button down here.</p>
-                            <span className="button button-hero">Find out</span>
+                            <a href="https://github.com/Giuseppetm/elegalio"><span className="button button-hero">Find out</span></a>
                         </div>
                     </Col>
                 </Row>
@@ -23,7 +23,7 @@ const Details = () => {
                         <div>
                             <h2 style={{ fontWeight: 'normal' }}>This is cool too.</h2>
                             <p>There's a particular story about this building.. maybe you should check out!</p>
-                            <span className="button button-hero">Discover this one</span>
+                            <a href="https://github.com/Giuseppetm/elegalio"><span className="button button-hero">Discover this one</span></a>
                         </div>
                     </Col>
 
@@ -41,7 +41,7 @@ const Details = () => {
                         <div>
                             <h2 style={{ fontWeight: 'normal' }}>Woah, this is really nice.</h2>
                             <p>I think ananas are really bad.. what do you think?</p>
-                            <span className="button button-hero">Tell me about</span>
+                            <a href="https://github.com/Giuseppetm/elegalio"><span className="button button-hero">Tell me about</span></a>
                         </div>
                     </Col>
                 </Row>

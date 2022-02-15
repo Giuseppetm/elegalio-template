@@ -8,4 +8,31 @@ footer {
         color: #444;
     }
 
+    .social-icons {
+        text-align: right;
+    }
+
+    .circle-icon {
+        padding: 10px 12px 10px 12px;
+        margin-right: 6px;
+        border-radius: 50%;
+        background-color: #444;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        transition: all 0.1s ease-in-out;
+        cursor: pointer;
+    }
+
+    .circle-icon:hover {
+        background-color: $primary-color;
+    }
+
+    @media screen and (max-width: 766px) {
+        .footer-col {
+            text-align: center !important;
+        }
+
+        .footer-info {
+            margin-bottom: 40px;
+        }
+    }
 }
