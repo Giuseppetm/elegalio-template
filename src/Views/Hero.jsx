@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { HiMenuAlt2, HiX } from "react-icons/hi";
+import { Link } from 'react-scroll';
 import Fade from 'react-reveal/Fade';
 
 const Hero = () => {
@@ -18,9 +19,9 @@ const Hero = () => {
                                 <div className="header-content">
                                     <div><a href="https://elegalio.netlify.app/"><b>Elegalio</b></a></div>
                                     <div style={{ display: 'flex' }}>
-                                        <div className="navbar-item"><a href="#about">About</a></div>
-                                        <div className="navbar-item"><a href="#details">Details</a></div>
-                                        <div className="navbar-item" style={{ marginRight: 0 }}><a href="#contact">Contact</a></div>
+                                        <div className="navbar-item"><Link to="about" smooth duration={500}>About</Link></div>
+                                        <div className="navbar-item"><Link to="details" smooth duration={500}>Details</Link></div>
+                                        <div className="navbar-item" style={{ marginRight: 0 }}><Link to="contact" smooth duration={500}>Contact</Link></div>
                                     </div>
                                 </div>
                             </div>
@@ -65,9 +66,9 @@ const Hero = () => {
                             <div className="sidebar-content">
                                 <div className="menu-container">
                                     <div className="menu-title">Menu</div>
-                                    <div className="menu-item"><a href="#about" onClick={() => setLateralMenu(false)}>About</a></div>
-                                    <div className="menu-item"><a href="#details" onClick={() => setLateralMenu(false)}>Details</a></div>
-                                    <div className="menu-item"><a href="#contact" onClick={() => setLateralMenu(false)}>Contact</a></div>
+                                    <div className="menu-item"><Link to="about" smooth duration={500} onClick={() => setLateralMenu(false)}>About</Link></div>
+                                    <div className="menu-item"><Link to="details" smooth duration={500} onClick={() => setLateralMenu(false)}>Details</Link></div>
+                                    <div className="menu-item"><Link to="contact" smooth duration={500} onClick={() => setLateralMenu(false)}>Contact</Link></div>
                                 </div>
                                 <div className="menu-container" style={{ marginTop: 30 }}>
                                     <div className="menu-title">Get in touch</div>
@@ -93,11 +94,11 @@ const Content = () => {
                     <p style={{ maxWidth: 550 }}>You can insert whatever you want in this template, from yours text to images: if you want you can change the context to what you need.</p>
                 </div>
 
-                <a href="#about">
+                <Link to="about" smooth duration={500}>
                     <span className="button button-hero">
                         Tell me more
                     </span>
-                </a>
+                </Link>
             </Fade>
         </div>
     );

@@ -9,14 +9,17 @@ footer {
     }
 
     .social-icons {
-        text-align: right;
+        //text-align: right;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 10px;
     }
 
     .circle-icon {
-        padding: 10px 12px 10px 12px;
+        padding: 8px 10px 8px 10px;
         margin-right: 6px;
-        border-radius: 40%;
-        background-color: #444;
+        border-radius: 35%;
+        border: 1px solid rgba(0, 0, 0, 0.25);
         box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
         transition: all 0.1s ease-in-out;
         cursor: pointer;
@@ -26,21 +29,37 @@ footer {
         background-color: $primary-color;
     }
 
-    @media screen and (max-width: 766px) {
+    @media screen and (max-width: 991px) {
         .footer-col {
             text-align: center !important;
-        }
-
-        .footer-info {
-            margin-bottom: 40px;
         }
     }
 
     .social-link {
-        color: $white-color;
+        color: rgba(242, 242, 242, 0.897);
     }
 
     .social-link:hover {
         color: $white-color;
+    }
+
+    .menu-title {
+        margin-bottom: 15px;
+        font-weight: bold;
+        color: $primary-color;
+    }
+
+    .menu-item {
+        color: $white-color;
+        transition: all 0.1s ease-in-out;
+        
+        a {
+            cursor: pointer;
+        }
+
+        :hover {
+            font-weight: bold;
+            transition: all 0.1s ease-in-out;
+        }
     }
 }
