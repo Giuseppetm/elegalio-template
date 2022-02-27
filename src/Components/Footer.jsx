@@ -36,9 +36,9 @@ const Footer = () => {
                     <Col lg={3} sm={6} xs={12} className="footer-col">
                         <div>
                             <div className="menu-title">OTHER LINKS</div>
-                            <div className="menu-item"><a>Sample 1</a></div>
-                            <div className="menu-item"><a>Sample 2</a></div>
-                            <div className="menu-item"><a>Sample 3</a></div>
+                            <div className="menu-item"><a href="https://elegalio.netlify.app/">Sample 1</a></div>
+                            <div className="menu-item"><a href="https://elegalio.netlify.app/">Sample 2</a></div>
+                            <div className="menu-item"><a href="https://elegalio.netlify.app/">Sample 3</a></div>
                         </div>
                     </Col>
 
