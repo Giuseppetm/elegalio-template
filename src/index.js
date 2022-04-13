@@ -8,6 +8,7 @@ import gsap from "gsap";
 
 MouseFollower.registerGSAP(gsap);
 
+// eslint-disable-next-line no-unused-vars
 const cursor = new MouseFollower();
 
 ReactDOM.render(
