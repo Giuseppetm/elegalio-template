@@ -3,6 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import MouseFollower from "mouse-follower";
+import gsap from "gsap";
+
+MouseFollower.registerGSAP(gsap);
+
+const cursor = new MouseFollower();
 
 ReactDOM.render(
   <React.StrictMode>
