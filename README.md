@@ -1,9 +1,10 @@
 # Elegalio
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+[![GitHub issues](https://img.shields.io/github/issues/Giuseppetm/elegalio-template)](https://github.com/Giuseppetm/elegalio-template/issues/)
 
 Template for modern and responsive websites, made with React.
 
-![elegalio](https://user-images.githubusercontent.com/52317197/159970356-bfdea6b2-d68e-45e8-873c-5fa6a3aef9fa.jpeg)
+![preview](https://user-images.githubusercontent.com/52317197/172046154-27435254-814d-482a-b794-2db42592d4a9.png)
 
 ## How to run in local
 `npm install` To install dependencies
