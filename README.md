@@ -1,6 +1,7 @@
 # Elegalio
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 [![GitHub issues](https://img.shields.io/github/issues/Giuseppetm/elegalio-template)](https://github.com/Giuseppetm/elegalio-template/issues/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c5b044da-73bf-46a1-9e3c-eabb2119e555/deploy-status)](https://app.netlify.com/sites/elegalio/deploys)
 
 Template for modern and responsive websites, made with React.
 
