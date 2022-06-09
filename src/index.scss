@@ -27,6 +27,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.mf-cursor { 
+  color: $primary-color; 
+
+  @media screen and (max-width: 769px) {
+    display: none;
+  }
+}
+
 h1,
 h2,
 h3,

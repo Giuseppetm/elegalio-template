@@ -1,11 +1,11 @@
-import { useState } from "react";
+import { useScrollLock } from '@mantine/hooks';
 import { Container, Row, Col } from "react-bootstrap";
 import { HiMenuAlt2, HiX } from "react-icons/hi";
 import { Link } from 'react-scroll';
 import Fade from 'react-reveal/Fade';
 
 const Hero = () => {
-    let [lateralMenu, setLateralMenu] = useState(false);
+    let [lateralMenu, setLateralMenu] = useScrollLock(false);
 
     return (
         <section id="hero">
@@ -95,7 +95,7 @@ const Content = () => {
                 </div>
 
                 <Link to="about" smooth duration={500}>
-                    <span className="button button-hero">
+                    <span className="button button-hero" data-cursor-text="Click me">
                         Tell me more
                     </span>
                 </Link>

@@ -12,7 +12,7 @@ const Details = () => {
                 <Fade left duration={500} delay={600} distance="30px">
                     <Row className="mb-5 mb-lg-0">
                         <Col lg={8} className="p-4">
-                            <img src={require("../Images/details/details1.jpg")} alt="Details1" />
+                            <img src={require("../Images/details/details1.jpg")} alt="Details1" data-cursor-text="Check out"  />
                         </Col>
 
                         <Col lg={4} className="col-description">
@@ -36,7 +36,7 @@ const Details = () => {
                         </Col>
 
                         <Col lg={8} className="p-4">
-                            <img src={require("../Images/details/details2.jpg")} alt="Details2" />
+                            <img src={require("../Images/details/details2.jpg")} alt="Details2" data-cursor-text="Check out" />
                         </Col>
                     </Row>
                 </Fade>
@@ -44,7 +44,7 @@ const Details = () => {
                 <Fade left duration={500} delay={600} distance="30px">
                     <Row className="mb-5 mb-lg-0">
                         <Col lg={8} className="p-4">
-                            <img src={require("../Images/details/details3.jpg")} alt="Details3" />
+                            <img src={require("../Images/details/details3.jpg")} alt="Details3" data-cursor-text="Check out"  />
                         </Col>
 
                         <Col lg={4} className="col-description">
